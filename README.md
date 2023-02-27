@@ -1,28 +1,24 @@
-# Project 5 - BeRealClone
+# Project 6 - BeRealClone
 
 Submitted by: Harshini Oruganti
 
-BeRealClone is an app that which clones some of the main functionalities of the trending app called BeReal. In this app, users post a photo of what they’re currently doing upon receiving a random notification during the day. Only after posting a photo can the user see their friends’ photos.
+BeRealClone is an app which clones some of the main functionalities of the trending app called BeReal. In this app, users post a photo of what they’re currently doing upon receiving a random notification during the day. Only after posting a photo can the user see their friends’ photos. 
 
-Time spent: 5 hours spent in total
+Time spent: 6 hours spent in total (both Unit 5&6)
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] User can register a new account
-- [x] User can log in with newly created account
-- [x] App has a feed of posts when user logs in
-- [x] User can upload a new post which takes in a picture from photo library and a caption    
+- [x] User can launch camera to take photo instead of photo library
+- [x] User session persists when application is closed and relaunched
+- [x] Users are able to log out and return to sign in page
+- [x] Users are NOT able to see other photos until they upload their own    
  
 The following **optional** features are implemented:
 
-- [x] Users can pull to refresh their feed and see a loading indicator
-- [x] Users can infinite-scroll in their feed to see past the 10 most recent photos
-- [ ] Users can see location and time of photo upload in the feed    
-- [x] User is able to logout
-- [x] User stays logged in when app is closed and open again    
-
+- [ ] User receive notifcation when it is time to post
+- [ ] Users can make comments and view comments in posts    
 
 The following **additional** features are implemented:
 
@@ -31,14 +27,14 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-https://media.giphy.com/media/MASo2BdnsfgrlhemNR/giphy.gif
+https://submissions.us-east-1.linodeobjects.com/ios102/PmhTpUtQ.gif
 
-GIF created with Giphy.com
+GIF created with CodePath upload video into GIF
 
 ## Notes
 
 Describe any challenges encountered while building the app.
-- When a new user is created, the app does not log out the old user
+- New user couldn't be created under an ObjectID but fixed this issue using logOut() method
 
 ## License
 
