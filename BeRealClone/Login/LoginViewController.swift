@@ -1,8 +1,8 @@
 //
 //  LoginViewController.swift
-//  BeRealClone
+//  lab-insta-parse
 //
-//  Created by Harshini Oruganti on 02/26/2023.
+//  Created by Charlie Hieger on 10/29/22.
 //
 
 import UIKit

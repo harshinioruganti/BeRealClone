@@ -1,9 +1,10 @@
 //
 //  FeedViewController.swift
-//  BeRealClone
+//  lab-insta-parse
 //
-//  Created by Harshini Oruganti on 02/26/2023.
+//  Created by Charlie Hieger on 11/1/22.
 //
+
 import UIKit
 
 // TODO: P1 1 - Import Parse Swift
@@ -29,7 +30,16 @@ class FeedViewController: UIViewController {
         tableView.allowsSelection = false
 
         tableView.refreshControl = refreshControl
+        
+        // refreshControl styling
+        // change color of refresh circle
         refreshControl.tintColor = UIColor(red: 255, green: 255, blue: 255, alpha: 1.0)
+        // add text and change color
+        let attributes: [NSAttributedString.Key: Any] = [
+            .foregroundColor: UIColor.white,
+            .backgroundColor: UIColor.black]
+        refreshControl.attributedTitle = NSAttributedString(string: "Fetching new posts...", attributes: attributes)
+        
         refreshControl.addTarget(self, action: #selector(onPullToRefresh), for: .valueChanged)
     }
 
@@ -48,11 +58,15 @@ class FeedViewController: UIViewController {
         // 3. Sort the posts by descending order based on the created at date
         // 4. TODO: Pt 2 - Only include results created yesterday onwards
         // 5. TODO: Pt 2 - Limit max number of returned posts
-
-                           
+        // Get the date for yesterday. Adding (-1) day is equivalent to subtracting a day.
+        // NOTE: `Date()` is the date and time of "right now".
+        let yesterdayDate = Calendar.current.date(byAdding: .day, value: (-1), to: Date())!
+        
         let query = Post.query()
             .include("user")
             .order([.descending("createdAt")])
+            .where("createdAt" >= yesterdayDate) // <- Only include results created yesterday onwards
+            .limit(10) // <- Limit max number of returned posts to 10
 
         // Find and return posts that meet query criteria (async)
         query.find { [weak self] result in

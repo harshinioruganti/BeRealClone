@@ -1,8 +1,8 @@
 //
 //  User.swift
-//  BeRealClone
+//  lab-insta-parse
 //
-//  Created by Harshini Oruganti on 02/26/2023.
+//  Created by Charlie Hieger on 11/29/22.
 //
 
 import Foundation
@@ -31,5 +31,6 @@ struct User: ParseUser {
     // Your custom properties.
 
     // TODO: Pt 2 - Add custom property for `lastPostedDate`
+    var lastPostedDate: Date?
 
 }

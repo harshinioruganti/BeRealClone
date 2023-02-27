@@ -1,8 +1,8 @@
 //
 //  DateFormatter+Extensions.swift
-//  BeRealClone
+//  lab-insta-parse
 //
-//  Created by Harshini Oruganti on 02/26/2023.
+//  Created by Charlie Hieger on 11/3/22.
 //
 
 import Foundation
