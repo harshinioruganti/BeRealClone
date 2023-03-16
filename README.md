@@ -27,9 +27,10 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-https://submissions.us-east-1.linodeobjects.com/ios102/PmhTpUtQ.gif
+Unit 5: https://github.com/harshinioruganti/unit5and6-project
+Unit 6: 
 
-GIF created with CodePath upload video into GIF
+GIF created with Giphy.com
 
 ## Notes
 
