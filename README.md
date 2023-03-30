@@ -1,4 +1,4 @@
-# Project 6 - BeRealClone
+# Project 5 and 6 - BeRealClone
 
 Submitted by: Harshini Oruganti
 
