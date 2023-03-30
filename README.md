@@ -27,6 +27,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+
 Unit 5: https://media.giphy.com/media/MASo2BdnsfgrlhemNR/giphy.gif
 Unit 6: https://media.giphy.com/media/pmNQIYkFOML1yr1TwP/giphy.gif
 
