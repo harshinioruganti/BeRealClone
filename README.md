@@ -1,4 +1,4 @@
-# Project 6 - BeRealClone
+# Project 5 and 6 - BeRealClone
 
 Submitted by: Harshini Oruganti
 
@@ -27,8 +27,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-Unit 5: https://media.giphy.com/media/MASo2BdnsfgrlhemNR/giphy.gif
-Unit 6: https://media.giphy.com/media/pmNQIYkFOML1yr1TwP/giphy.gif
+https://media.giphy.com/media/MASo2BdnsfgrlhemNR/giphy.gif (Unit 5)
+https://media.giphy.com/media/pmNQIYkFOML1yr1TwP/giphy.gif (Unit 6)
 
 GIF created with Giphy.com
 
